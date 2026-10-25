@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    float number;
+	printf("enter a number:");
+	scanf("%f",&number);
+	if(number>0)
+	{
+		printf("%.2f is positive\n",number);
+	}
+	else if(number<0)
+	{
+		printf("%.2f is negative\n",number);
+	}
+	else
+	{
+		printf("Zero\n");
+	}
+}
+
+
+
+
+
+
+
+
+
